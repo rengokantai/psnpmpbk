@@ -47,5 +47,81 @@ www.npmjs.com/package/lodash
 registry.npmjs.org/lodash
 npm.im/lodash
 ```
+- 5
+search (not recommend)
+```
+npm search name
+```
+
+- 6
+Pruning (delete non-listed packages)
+```
+npm list --depth 0
+npm prune
+npm prune --production
+```
+
+- 7
+open official repo
+```
+npm repo name
+```
+
+- 8
+updrade
+```
+npm i npm@latest -g
+```
+
+#### 4
+
+- 1
+Create a user account. Then
+```
+npm adduser
+```
+
+- 3
+publish
+After pushing your project to github, then
+```
+npm publish
+```
+check info
+```
+npm info name
+npm repo name
+```
+Next we can add tag
+```
+git tag v1.0.1
+git push --tags
+```
+- 4
+update(3 steps)
+1. change version in package.json, we need to execute
+2.
+```
+npm version path (major,minor)
+```
+3. check
+```
+git tag
+git push --tags
+```
+
+- 5
+Alpha and Beta
+1.change package.json like 1.0.0-beta.0 then
+```
+npm publish --tags beta
+```
+
+To install
+```
+npm install name@beta
+```
+
+
 
 
