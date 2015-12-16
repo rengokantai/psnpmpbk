@@ -28,3 +28,24 @@ npm update (all)
 npm update --dev
 npm update --prod
 ```
+
+#### 3
+- 2
+install from gist
+```
+npm install gist:4314adcd133c
+```
+- 3
+install from folders
+```
+npm install ../xx
+```
+- 4
+find registry. For example
+```
+www.npmjs.com/package/lodash
+registry.npmjs.org/lodash
+npm.im/lodash
+```
+
+
